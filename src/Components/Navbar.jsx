@@ -16,10 +16,8 @@ const Navbar = () => {
         {/*Menu*/}
         
             <ul className=' hidden md:flex'>
-                <li>Home</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li> <a href="/">Home</a></li>
+                <li> <a href="/contact">Contact</a></li>
             </ul>
         
 
@@ -31,10 +29,10 @@ const Navbar = () => {
         {/* Mobile Menu*/}
 
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                <li className="py-6 text-4xl ">Home</li>
+                <li className="py-6 text-4xl "><a href="/">Home</a></li>
                 <li className="py-6 text-4xl ">Skills</li>
                 <li className="py-6 text-4xl ">Projects</li>
-                <li className="py-6 text-4xl ">Contact</li>
+                <li className="py-6 text-4xl "><a href="/contact">Contact</a></li>
             </ul>
  
           {/* Social Icons */}   
