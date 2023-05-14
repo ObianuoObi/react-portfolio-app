@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaHandsHelping } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsfillPersonLinesFill} from 'react-icons/bs'
 
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>  
     <div className=''>
-        .O.B.I.
+        Obinna Obianuo
         </div>
         
         {/*Menu*/}
@@ -32,7 +32,6 @@ const Navbar = () => {
 
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
                 <li className="py-6 text-4xl "><a href="/">Home</a></li>
-                <li className="py-6 text-4xl ">Skills</li>
                 <li className="py-6 text-4xl "><a href="/contact">Contact</a></li>
                 <li className="py-6 text-4xl "><a href="/projects">Projects</a></li>
             </ul>
@@ -43,20 +42,20 @@ const Navbar = () => {
             <ul>
               <li className='w-[160px] h-[60px] flex justify-between items-center '>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                href="https://www.linkedin.com/in/obinna-obianuo-2085a0215/">
                 <FaLinkedin size={20}/> 
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center  '>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                href="https://github.com/ObianuoObi">
                   <FaGithub size={20}/> 
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
-                   <FaFacebook size={20}/> 
+                href="mailto:obianuoobinna@gmail.com">
+                   <FaHandsHelping size={20}/> 
                 </a>
               </li>
         

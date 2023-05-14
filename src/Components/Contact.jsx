@@ -13,8 +13,6 @@ const Contact = () => {
             <button className='text-white border-2 hover:bg-blue-600 hover:border-blue-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
             <div> <p className='text-2xl font-bold  text-white'>Contact: +4407818649590</p></div>
             <div> <p className='text-2xl font-bold  text-white'>Email: obianuoobinna@gmail.com</p></div>
-            <div> <a href="#" className='text-2xl font-bold  text-white'>Github: https://github.com/ObianuoObi</a> </div>
-            <div> <a href="#" className='text-2xl font-bold  text-white'>Linkedin: https://www.linkedin.com/feed/ </a> </div>
         </form>
         
     </div>
