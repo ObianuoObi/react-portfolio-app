@@ -36,10 +36,10 @@ const Projects = () => {
 <div className='opacity-0 group-hover:opacity-100'>
   
   <div className='pt-8 text-center'>
-    <a href="https://obianuoobi.github.io/weather-dashboard/">
+    <a href="https://openai-codex-omega.vercel.app/">
       <button className='text-center rounded-lg px-4 py-3 m-2 bg-blue-900 text-white font-bold text-lg '>Demo</button>
     </a>
-    <a href="https://github.com/ObianuoObi/weather-dashboard">
+    <a href="https://github.com/ObianuoObi/openai_codex">
       <button className='text-center rounded-lg px-4 py-3 m-2 bg-blue-900 text-white font-bold text-lg '>Code</button>
     </a>
   </div>
