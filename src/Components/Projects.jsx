@@ -1,6 +1,6 @@
 import React from 'react'
 import crypto from '../Assets/crypto.png'
-import weather from '../Assets/weather.png'
+import openai from '../Assets/openai.png'
 import page from '../Assets/page.png'
 
 
@@ -31,7 +31,7 @@ const Projects = () => {
 
             </div>
           </div>
-          <div style={{ backgroundImage: `url(${codex})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{ backgroundImage: `url(${openai})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             <div className='opacity-0 group-hover:opacity-100'>
 
